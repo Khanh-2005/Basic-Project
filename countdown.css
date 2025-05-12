@@ -1,0 +1,18 @@
+.counter h1{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+}
+
+li span{
+    display: block;
+    font-size: 80px;
+    text-align: center;
+}
