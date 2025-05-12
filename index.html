@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Caro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="player player1">
+            <input type="text" id="player1-name" placeholder="Tên người chơi 1">
+            <div class="player-symbol">X</div>
+        </div>
+        
+        <div id="board"></div>
+        
+        <div class="player player2">
+            <input type="text" id="player2-name" placeholder="Tên người chơi 2">
+            <div class="player-symbol">O</div>
+        </div>
+    </div>
+
+    <div id="result" class="result-popup">
+        <div class="result-content">
+            <h2 id="winner-text"></h2>
+            <button onclick="resetBoard()">Chơi lại</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
